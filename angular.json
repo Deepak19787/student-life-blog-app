@@ -33,6 +33,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/student-life-blog-app/",
               "budgets": [
                 {
                   "type": "initial",
