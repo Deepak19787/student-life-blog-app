@@ -57,3 +57,13 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Blog Page
+
+A new Blog page has been added to the application to share articles and tips about student life. This page includes SEO best practices such as semantic HTML, page titles and meta descriptions, internal linking, image alt tags, and keyword optimization.
+
+- The blog page component is located at `src/app/pages/blog/`.
+- The route `/blog` has been added to the routing configuration.
+- The navigation bar includes a link to the Blog page for easy access.
+
+To view the blog page, run the development server and navigate to `http://localhost:4200/blog`.
