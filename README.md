@@ -109,11 +109,23 @@ The build artifacts will be stored in the `dist/` directory.
 
 ## 🌐 Deployment
 
-### GitHub Pages
-1. Build the project: `ng build --configuration production`
-2. Push to GitHub
-3. Enable GitHub Pages in repository settings
-4. Set source to `/docs` or deploy branch
+### GitHub Pages (Recommended)
+Your project is configured with automatic deployment to GitHub Pages:
+
+1. **Enable GitHub Pages**:
+   - Go to your repository: https://github.com/Deepak19787/student-life-blog-app
+   - Click **Settings** → **Pages**
+   - Select **GitHub Actions** as source
+   - Save changes
+
+2. **Automatic Deployment**:
+   - The GitHub Actions workflow will build and deploy automatically
+   - Your site will be available at: `https://deepak19787.github.io/student-life-blog-app/`
+
+### Manual Build
+```bash
+ng build --configuration production
+```
 
 ### Netlify
 1. Connect your GitHub repository to Netlify
